@@ -6,6 +6,10 @@
   "scripts": {
     "deploy": "gh-pages -d src"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laviku/async-landing.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
