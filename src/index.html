@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            shadows: ['"Shadows Into Light"', 'cursive'],
+            poppins: ["Poppins", 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <script defer src="./assets/main.js"></script>
+</head>
+<body>
+  <div class="banner">
+    <img  class="w-full h-auto" src="./assets/async-img-01.jpg" alt="Stray Kids Banner">
+  </div>
+  <div class="container bg-white p-8 mx-auto -mt-8 relative z-10 rounded shadow-lg font-shadows">
+    <h1 class="text-4xl text-center capitalize">
+      Stray Kids Everywhere all around the world
+    </h1>
+
+    <div id="videos-container" class="grid gap-4 grid-cols-3 mt-8">
+      <!-- Videos -->
+    </div>
+  </div>
+</body>
+</html>
